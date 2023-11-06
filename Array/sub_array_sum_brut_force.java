@@ -21,7 +21,7 @@ public class sub_array_sum_brut_force {
     }
 
     public static void main(String []args){
-        int arr[] = {2,4,6,8,10};
+        int arr[] = {2,4,-8,8,10};
         subArraySum(arr);
     }
     

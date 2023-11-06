@@ -3,7 +3,9 @@ import java.util.List;
 
 public class Buildin {
     ArrayList<Integer> arr = new ArrayList<Integer>();
+    
     List<String>  myAlist = new ArrayList<String>();
+    
         myAlist.add("Geeks");
         myAlist.add("Practice");
         myAlist.add("Quiz");
@@ -11,8 +13,13 @@ public class Buildin {
         myAlist.remove("Quiz");
 
         arrlist1.addAll(arrlist2);
+
         arr.clear();
         arr.contains(value);
         arr.isEmpty();
         arr.indexOf(value);
+
+        Collections.sort(list);
+        Collections.sort(list, Collections.reverseOrder());
+
 }

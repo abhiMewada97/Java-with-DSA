@@ -12,6 +12,7 @@ public class Traipping_RainWater {
 
         for(int i=1; i < size; i++){
             leftHeight[i] = Math.max(leftHeight[i-1], height[i]);
+            // System.out.println(leftHeight[i]);
         }
         
         // right max
