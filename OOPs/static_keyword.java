@@ -14,6 +14,9 @@ public class static_keyword {
 
         System.out.println(s2.schoolName);
         System.out.println(Student.schoolName);
+
+        System.out.println(s2.name);
+        // System.out.println(Student.name);    //error
     }    
 }
 

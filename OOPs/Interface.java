@@ -1,12 +1,3 @@
-public class Interface {
-    
-    public static void main(String []args){
-
-        Animal a = new Animal();
-        a.carnivoreFun();
-        a.harbivoreFun();
-    }
-}
 
 interface Carnivore {
     void carnivoreFun();
@@ -25,5 +16,15 @@ class Animal implements Carnivore, Harbivore {
     }
     public void harbivoreFun(){
         System.out.println("I am Harbivore");
+    }
+}
+
+public class Interface {
+        
+    public static void main(String []args){
+    
+        Animal a = new Animal();
+        a.carnivoreFun();
+        a.harbivoreFun();
     }
 }
