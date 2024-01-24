@@ -58,10 +58,10 @@ public class Reverse_linked_list {
 
         ll.addElement(1);
         ll.addElement(2);
-        ll.addElement(3);
-        ll.addElement(4);
-        ll.addElement(5);
-        ll.addElement(6);
+        // ll.addElement(3);
+        // ll.addElement(4);
+        // ll.addElement(5);
+        // ll.addElement(6);
         
         ll.printLinkedList();
         ll.reverseLinkedList();
