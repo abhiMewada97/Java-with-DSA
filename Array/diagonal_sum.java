@@ -1,5 +1,6 @@
 public class diagonal_sum {
-
+    // new change
+   
     public static void diagonalSum(int matrix[][]){
 
         int sum=0, size=matrix.length;
