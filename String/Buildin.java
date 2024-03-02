@@ -47,4 +47,6 @@ public class Buildin {
 
 
     str.equalsIgnoreCase(str1);
+
+    String[] words = s.split("\\s+");      // split("\\s+") will split the string into string of array with separator as space or multiple spaces.
 }
