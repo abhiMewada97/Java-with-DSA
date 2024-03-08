@@ -34,3 +34,18 @@ public class Buildin {
 
     set.add(value);
 }
+
+
+
+
+// hash map
+
+for (Map.Entry<Integer,Integer> entry : map.entrySet())  
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+
+
+
+for (Map.Entry<Integer,Integer> entry : map.entrySet())  {
+            if(entry.getValue() == 1) 
+                return entry.getKey();
+        }
