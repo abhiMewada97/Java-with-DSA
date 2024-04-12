@@ -48,7 +48,7 @@ public class BFS {
         graph[6].add(new Edge(6, 5, 2));
     }
 
-    public static void bfs_traversal(ArrayList<Edge>[] graph){
+    public static void bfs_traversal(ArrayList<Edge>[] graph){  // O(V+E)   \\  O(V^2)      in case of matrix
 
         Queue<Integer> q = new LinkedList<>();
         boolean vis[] = new boolean[graph.length];
