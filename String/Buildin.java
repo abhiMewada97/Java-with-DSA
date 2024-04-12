@@ -49,4 +49,10 @@ public class Buildin {
     str.equalsIgnoreCase(str1);
 
     String[] words = s.split("\\s+");      // split("\\s+") will split the string into string of array with separator as space or multiple spaces.
+
+     char charArray[] = inputString.toCharArray();
+
+     StringBuilder sb = new StringBuilder(s);
+            char ch = sb.charAt(0);
+            sb.deleteCharAt(0);
 }
