@@ -10,7 +10,7 @@ public class Fabonacci_DP{
             return arr[n];
         }
         
-        arr[n] = fib(n-1,arr) + fib(n-2,arr);
+        arr[n] = Memoization_Fib(n-1,arr) + Memoization_Fib(n-2,arr);
 
         return arr[n];
     }
@@ -29,7 +29,7 @@ public class Fabonacci_DP{
 
     public static void main(String []args) {
 
-        int n = 5;
+        int n = 2;
         int arr[] = new int[n+1]; // by default value 0
 
         System.out.println(Memoization_Fib(n,arr));
