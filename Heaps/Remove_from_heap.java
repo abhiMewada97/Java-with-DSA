@@ -31,11 +31,11 @@ public class Remove_from_heap {
             int right = 2*i+2;  
             int minIdx = i;
 
-            if(left < list.size() && list.get(minIdx) > left) {
+            if(left < list.size() && list.get(minIdx) > list.get(left)) {
                 minIdx = left;
             }           
 
-            if(right < list.size() && list.get(minIdx) > right) {
+            if(right < list.size() && list.get(minIdx) > list.get(right)) {
                 minIdx = right; 
             }
 
@@ -62,7 +62,7 @@ public class Remove_from_heap {
             // step2 remove last
             list.remove(list.size()-1);
             
-            // step3 remove last
+            // step3 heapify 
             heapify(0); 
             return data;
         }

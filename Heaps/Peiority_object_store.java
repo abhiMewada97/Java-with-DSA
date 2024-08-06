@@ -3,6 +3,7 @@ import java.util.PriorityQueue;
 
 public class Peiority_object_store {
 
+    // static class Student {
     static class Student implements Comparable<Student> {  //overriding
         String name;
         int rank;
